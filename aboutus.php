@@ -19,7 +19,7 @@
     
     if($result){
         echo "Messagse has been recorded";
-        header( "refresh:1.5;url=index.html" );
+        header( "refresh:1.5;url=index.php" );
         
         exit();
     }
@@ -98,14 +98,14 @@ body{
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
 
     <nav class="navbar navbar-expand-md">
-        <a class="navbar-brand" href="index.html">Blue Travel Agency</a>
+        <a class="navbar-brand" href="index.php">Blue Travel Agency</a>
         <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#main-navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="main-navigation">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link" href="index.html">Home</a>
+                    <a class="nav-link" href="index.php">Home</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="aboutus.php">About Us</a>
